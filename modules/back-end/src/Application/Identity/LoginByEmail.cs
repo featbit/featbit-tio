@@ -54,7 +54,7 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
             var registerResult = await _identityService.RegisterByEmailAsync(request.Email, request.Password);
             
             // create new organization
-            var orgName = $"Playground - {request.Email.Split("@")[0]}";
+            var orgName = $"Playground - {request.Email}";
             var organization = new Organization(orgName);
             await _orgService.AddOneAsync(organization);
             
