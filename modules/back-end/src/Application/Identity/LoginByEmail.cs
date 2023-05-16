@@ -47,7 +47,7 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
     public async Task<LoginResult> Handle(LoginByEmail request, CancellationToken cancellationToken)
     {
         var user = await _userService.FindByEmailAsync(request.Email);
-
+        
         if (user == null)
         {
             // create user
@@ -62,6 +62,8 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
             var organizationUser = new OrganizationUser(organization.Id, registerResult.UserId);
             var policies = new[] { BuiltInPolicy.Owner };
             await _orgService.AddUserAsync(organizationUser, policies: policies);
+            
+            return LoginResult.Ok(registerResult.Token);
         }
 
         _logger.LogInformation("user {Identity} login in by password", request.Email);
