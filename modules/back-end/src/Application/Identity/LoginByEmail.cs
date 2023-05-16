@@ -63,6 +63,7 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
             var policies = new[] { BuiltInPolicy.Owner };
             await _orgService.AddUserAsync(organizationUser, policies: policies);
             
+            _logger.LogInformation("user {Identity} registered", request.Email);
             return LoginResult.Ok(registerResult.Token);
         }
 
