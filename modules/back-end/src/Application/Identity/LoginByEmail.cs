@@ -47,28 +47,25 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
     public async Task<LoginResult> Handle(LoginByEmail request, CancellationToken cancellationToken)
     {
         var user = await _userService.FindByEmailAsync(request.Email);
-        
         if (user == null)
         {
             // create user
             var registerResult = await _identityService.RegisterByEmailAsync(request.Email, request.Password);
-            
-            // create new organization
+            _logger.LogInformation("user {Identity} registered", request.Email);
+
+            // create organization for new user
             var orgName = $"Playground - {request.Email}";
             var organization = new Organization(orgName);
             await _orgService.AddOneAsync(organization);
-            
-            // Set user as org owner
+
+            // set user as org owner
             var organizationUser = new OrganizationUser(organization.Id, registerResult.UserId);
             var policies = new[] { BuiltInPolicy.Owner };
             await _orgService.AddUserAsync(organizationUser, policies: policies);
-            
-            _logger.LogInformation("user {Identity} registered", request.Email);
             return LoginResult.Ok(registerResult.Token);
         }
 
-        _logger.LogInformation("user {Identity} login in by password", request.Email);
-
+        _logger.LogInformation("user {Identity} login by password", request.Email);
         return await _identityService.LoginByEmailAsync(request.Email, request.Password);
     }
 }
