@@ -1,12 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { firstValueFrom, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { IProject, IProjectEnv } from '@shared/types';
 import { CURRENT_PROJECT } from "@utils/localstorage-keys";
 import { MessageQueueService } from "@services/message-queue.service";
-import { map } from "rxjs/operators";
-import { getCurrentProjectEnv } from "@utils/project-env";
 
 @Injectable({
   providedIn: 'root'
@@ -14,10 +12,17 @@ import { getCurrentProjectEnv } from "@utils/project-env";
 export class ProjectService {
   baseUrl = `${environment.url}/api/v1/projects`;
 
-  constructor(private http: HttpClient, private messageQueueService: MessageQueueService,) { }
+  constructor(
+    private http: HttpClient,
+    private messageQueueService: MessageQueueService
+  ) { }
 
   getList(): Observable<IProject[]> {
     return this.http.get<IProject[]>(this.baseUrl);
+  }
+
+  async getListAsync(): Promise<IProject[]> {
+    return firstValueFrom(this.getList());
   }
 
   get(projectId: string): Observable<IProject> {
@@ -44,35 +49,6 @@ export class ProjectService {
     localStorage.setItem(CURRENT_PROJECT(), JSON.stringify(project));
     this.messageQueueService.emit(this.messageQueueService.topics.CURRENT_ORG_PROJECT_ENV_CHANGED);
   }
-
-  setCurrentProjectEnv(): Observable<IProjectEnv> {
-    return this.getList().pipe(
-      map((projects: IProject[]) => {
-        const localCurrentProjectEnv = getCurrentProjectEnv();
-        let project, env;
-
-        if (localCurrentProjectEnv) {
-          project = projects.find(pro => pro.id === localCurrentProjectEnv.projectId);
-          env = project.environments.find(env => env.id === localCurrentProjectEnv.envId);
-        } else {
-          project = projects[0];
-          env = project.environments[0];
-        }
-
-        const projectEnv: IProjectEnv = {
-          projectId: project.id,
-          projectName: project.name,
-          envId: env.id,
-          envKey: env.key,
-          envName: env.name,
-          envSecret: env.secrets[0].value
-        };
-
-        this.upsertCurrentProjectEnvLocally(projectEnv);
-        return projectEnv;
-      })
-    );
-  };
 
   // reset current project env
   clearCurrentProjectEnv() {

@@ -573,7 +573,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/experiments/metrics/metrics.component.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">83</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/components/flag-triggers/flag-triggers.component.ts</context>
@@ -593,27 +593,27 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">89</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">263</context>
+          <context context-type="linenumber">259</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">347</context>
+          <context context-type="linenumber">343</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">359</context>
+          <context context-type="linenumber">355</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">367</context>
+          <context context-type="linenumber">363</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/index/index.component.ts</context>
@@ -765,11 +765,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/target-user/target-user.component.ts</context>
-          <context context-type="linenumber">127</context>
+          <context context-type="linenumber">124</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/target-user/target-user.component.ts</context>
-          <context context-type="linenumber">159</context>
+          <context context-type="linenumber">162</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/experimentation/experimentation.component.ts</context>
@@ -789,11 +789,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">247</context>
+          <context context-type="linenumber">243</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">108</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/index/index.component.ts</context>
@@ -801,19 +801,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/onboarding/steps/steps.component.ts</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">71</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">255</context>
+          <context context-type="linenumber">253</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">297</context>
+          <context context-type="linenumber">295</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">316</context>
+          <context context-type="linenumber">314</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/segments/index/index.component.ts</context>
@@ -837,7 +837,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">187</context>
+          <context context-type="linenumber">184</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/prism/prism.component.ts</context>
@@ -857,7 +857,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/index/index.component.ts</context>
@@ -901,7 +901,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">183</context>
+          <context context-type="linenumber">181</context>
         </context-group>
         <target>复制成功</target>
       </trans-unit>
@@ -1525,11 +1525,11 @@
         <source>Error occurred, please try again</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/experiment-drawer/experiment-drawer.component.ts</context>
-          <context context-type="linenumber">165</context>
+          <context context-type="linenumber">162</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">144</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/metric-drawer/metric-drawer.component.ts</context>
@@ -1733,7 +1733,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">366</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/index/index.component.ts</context>
@@ -2265,7 +2265,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">57</context>
         </context-group>
         <target>新建标签</target>
       </trans-unit>
@@ -2921,7 +2921,7 @@
         <source>You don&apos;t have permissions to read project list, please contact the admin to grant you the necessary permissions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <target>您没有查看项目列表的权限， 请联系账户管理员添加相关权限</target>
       </trans-unit>
@@ -2929,7 +2929,7 @@
         <source>You don&apos;t have permissions to read environment list, please contact the admin to grant you the necessary permissions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <target>您没有查看该环境列表的权限， 请联系账户管理员添加相关权限</target>
       </trans-unit>
@@ -2937,7 +2937,7 @@
         <source>You don&apos;t have permissions to read project and environment list, please contact the admin to grant you the necessary permissions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <target>您没有查看项目环境列表的权限， 请联系账户管理员添加相关权限</target>
       </trans-unit>
@@ -2945,7 +2945,7 @@
         <source>Thank you for sending us your feedback, we&apos;ll get back to you very soon!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">214</context>
+          <context context-type="linenumber">211</context>
         </context-group>
         <target>感谢您给我们发送反馈，我们会尽快和您联系！</target>
       </trans-unit>
@@ -2953,7 +2953,7 @@
         <source>We were not able to send your feedback, Please try again!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/header/header.component.ts</context>
-          <context context-type="linenumber">217</context>
+          <context context-type="linenumber">214</context>
         </context-group>
         <target>反馈发送失败，请稍后重试！</target>
       </trans-unit>
@@ -4140,11 +4140,11 @@
         <source>Saved Successfully</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/target-user/target-user.component.ts</context>
-          <context context-type="linenumber">156</context>
+          <context context-type="linenumber">160</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">303</context>
+          <context context-type="linenumber">296</context>
         </context-group>
         <target>保存与更新成功</target>
       </trans-unit>
@@ -4363,6 +4363,22 @@
           <context context-type="linenumber">29</context>
         </context-group>
         <target>您没有读取访问令牌列表的权限，请联系管理员授予您所需的权限。</target>
+      </trans-unit>
+      <trans-unit id="permissions.permission-denied" datatype="html">
+        <source>Permission Denied</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/guards/auth.guard.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <target>无权访问</target>
+      </trans-unit>
+      <trans-unit id="permissions.need-permissions-to-access-env" datatype="html">
+        <source>You don&apos;t have permissions to access any projects and environments, please contact the admin to grant you the necessary permissions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/guards/auth.guard.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <target>您没有访问任何项目和环境的权限，请联系管理员授予您所需的权限。</target>
       </trans-unit>
       <trans-unit id="permissions.no-permissions-to-visit-iam-page" datatype="html">
         <source>You don&apos;t have permissions to visit IAM, please contact the admin to grant you the necessary permissions</source>
@@ -4920,11 +4936,11 @@
         <source>Loading failed, please try again</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/experiments/metrics/metrics.component.ts</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/experiments/overview/overview.component.ts</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/experimentation/experimentation.component.ts</context>
@@ -4936,7 +4952,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">211</context>
+          <context context-type="linenumber">204</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/integrations/access-tokens/index/index.component.ts</context>
@@ -4952,7 +4968,7 @@
         <source>Cannot remove this metric because it&apos;s being used by experiment</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/experiments/metrics/metrics.component.ts</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">90</context>
         </context-group>
         <target>该 Metric 正在被实验所引用，无法删除</target>
       </trans-unit>
@@ -5053,7 +5069,7 @@
         <source>Experiment with the same feature flag and metric exists</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/experiments/overview/overview.component.ts</context>
-          <context context-type="linenumber">115</context>
+          <context context-type="linenumber">110</context>
         </context-group>
         <target>相同开关和 Metric 的实验已经存在</target>
       </trans-unit>
@@ -5925,7 +5941,7 @@
         <source>This variation is used by targeting users, remove the reference before it can be safely removed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">219</context>
+          <context context-type="linenumber">215</context>
         </context-group>
         <target>该返回值已经在目标用户中使用，移除后方可删除！</target>
       </trans-unit>
@@ -5933,7 +5949,7 @@
         <source>This variation is used by rules, remove the reference before it can be safely removed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">224</context>
+          <context context-type="linenumber">220</context>
         </context-group>
         <target>该返回值已经在匹配条件的规则中使用，移除后方可删除！</target>
       </trans-unit>
@@ -5941,7 +5957,7 @@
         <source>This variation is used by default rule, remove the reference before it can be safely removed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">229</context>
+          <context context-type="linenumber">225</context>
         </context-group>
         <target>该返回值已经在默认规则中使用，移除后方可删除！</target>
       </trans-unit>
@@ -5949,7 +5965,7 @@
         <source>This variation is used by the value returned when the feature flag is OFF, remove the reference before it can be safely removed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/setting/setting.component.ts</context>
-          <context context-type="linenumber">234</context>
+          <context context-type="linenumber">230</context>
         </context-group>
         <target>该返回值已经在开关处于 OFF 状态的返回值中使用，移除后方可删除！</target>
       </trans-unit>
@@ -6045,7 +6061,7 @@
         <source>Rule</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">237</context>
+          <context context-type="linenumber">230</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/segments/types/segments-index.ts</context>
@@ -6057,7 +6073,7 @@
         <source>Failed to Save</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">307</context>
+          <context context-type="linenumber">300</context>
         </context-group>
         <target>保存失败</target>
       </trans-unit>
@@ -6065,7 +6081,7 @@
         <source>Fallthrough rule can not be empty</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">327</context>
+          <context context-type="linenumber">320</context>
         </context-group>
         <target>默认返回值不能为空</target>
       </trans-unit>
@@ -6073,7 +6089,7 @@
         <source>The sum of fallthrough rollout must be 100%</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">339</context>
+          <context context-type="linenumber">332</context>
         </context-group>
         <target>请确认默认返回值的总百分比必须为100%</target>
       </trans-unit>
@@ -6081,11 +6097,11 @@
         <source>The conditions of each rule must be set</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">349</context>
+          <context context-type="linenumber">342</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">365</context>
+          <context context-type="linenumber">358</context>
         </context-group>
         <target>每条规则的所有条件都不能为空</target>
       </trans-unit>
@@ -6093,7 +6109,7 @@
         <source>The sum of each rule&apos;s rollout must be 100%</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/feature-flags/details/targeting/targeting.component.ts</context>
-          <context context-type="linenumber">377</context>
+          <context context-type="linenumber">370</context>
         </context-group>
         <target>请确认匹配条件中每条规则的总百分比必须为100%！</target>
       </trans-unit>
@@ -7853,7 +7869,7 @@
         <source>Environment successfully removed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">108</context>
+          <context context-type="linenumber">106</context>
         </context-group>
         <target>环境创建成功</target>
       </trans-unit>
@@ -7861,7 +7877,7 @@
         <source>Project successfully removed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">124</context>
+          <context context-type="linenumber">122</context>
         </context-group>
         <target>项目删除成功</target>
       </trans-unit>
@@ -7869,7 +7885,7 @@
         <source>Add secret</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">206</context>
+          <context context-type="linenumber">204</context>
         </context-group>
         <target>添加秘钥</target>
       </trans-unit>
@@ -7877,7 +7893,7 @@
         <source>Edit secret: <x id="PH" equiv-text="secret.name"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/safe/organizations/project/project.component.ts</context>
-          <context context-type="linenumber">231</context>
+          <context context-type="linenumber">229</context>
         </context-group>
         <target>编辑：<x id="PH" equiv-text="secret.name"/></target>
       </trans-unit>
