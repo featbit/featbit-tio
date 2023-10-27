@@ -1,6 +1,7 @@
 using Application.Bases;
 using Domain.Organizations;
 using Domain.Policies;
+using Domain.Users;
 using Microsoft.Extensions.Logging;
 
 namespace Application.Identity;
@@ -50,7 +51,7 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
         if (user == null)
         {
             // create user
-            var registerResult = await _identityService.RegisterByEmailAsync(request.Email, request.Password);
+            var registerResult = await _identityService.RegisterByEmailAsync(request.Email, request.Password, UserOrigin.Local);
             _logger.LogInformation("user {Identity} registered", request.Email);
 
             // create organization for new user
