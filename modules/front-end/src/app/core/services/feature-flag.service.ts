@@ -62,6 +62,12 @@ export class FeatureFlagService {
     return firstValueFrom(this.http.get<IPendingChanges[]>(`${this.baseUrl}/${key}/pending-changes`));
   }
 
+  deleteSchedule(scheduleId: string): Observable<boolean> {
+    const url = `${this.baseUrl}/schedules/${scheduleId}`;
+
+    return this.http.delete<boolean>(url);
+  }
+
   updateSetting(key: string, payload: ISettingPayload): Observable<boolean> {
     const url = `${this.baseUrl}/${key}/settings`;
 
@@ -116,6 +122,17 @@ export class FeatureFlagService {
     };
 
     return this.http.put<boolean>(url, payload);
+  }
+
+  createSchedule(targeting: IFeatureFlagTargeting, schedule?: FlagSchedule): Observable<boolean> {
+    const url = `${this.baseUrl}/${targeting.key}/schedule`;
+
+    const payload = {
+      ...targeting,
+      schedule
+    };
+
+    return this.http.post<boolean>(url, payload);
   }
 
   getAllTags(): Observable<string[]> {
