@@ -13,7 +13,6 @@ import posthog from 'posthog-js';
 export class DoLoginComponent implements OnInit {
 
   pwdLoginForm: FormGroup;
-  passwordVisible: boolean = false;
   isLogin: boolean = false;
 
   constructor(
