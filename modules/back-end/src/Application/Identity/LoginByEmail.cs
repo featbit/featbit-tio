@@ -77,15 +77,7 @@ public class LoginByEmailHandler : IRequestHandler<LoginByEmail, LoginResult>
         }
 
         var workspaces = await _userService.GetWorkspacesAsync(request.Email);
-        if (!workspaces.Any())
-        {
-            // if there is no workspace associated with the user, create one
-            workspaceId = await CreateWorkspaceAsync();
-        }
-        else
-        {
-            workspaceId = workspaces.First().Id;
-        }
+        workspaceId = workspaces.First().Id;
 
         return await _identityService.LoginByEmailAsync(workspaceId, request.Email, request.Password);
 
