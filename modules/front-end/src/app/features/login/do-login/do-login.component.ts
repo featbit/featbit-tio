@@ -45,7 +45,7 @@ export class DoLoginComponent implements OnInit {
     const { identity, password } = this.pwdLoginForm.value;
     posthog.capture('Click Login', { property: 'value' });
 
-    this.identityService.loginByEmail(identity, password).subscribe(
+    this.identityService.loginByEmail(identity, password, '').subscribe(
       response => this.handleResponse(response),
       error => this.handleError(error)
     )
