@@ -3,35 +3,55 @@
 
 <div id="header" align="center">
   <div id="badges">
-  <a href="https://github.com/featbit/featbit/blob/main/LICENSE">
-    <img src="https://img.shields.io/static/v1?style=flat-square&label=license&message=MIT&color=brightgreen" />
-  </a>
-  <a href="https://twitter.com/RealFeatBit">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/>
-  </a>  
-  <a href="https://medium.com/@featbit">
-    <img src="https://img.shields.io/badge/Medium-grey?style=flat-square&logo=medium&logoColor=white" alt="Read about RATH on medium"/>
-  </a>
-  <a href="https://join.slack.com/t/featbit/shared_invite/zt-1ew5e2vbb-x6Apan1xZOaYMnFzqZkGNQ">
-    <img src="https://img.shields.io/badge/Slack-green?style=flat-square&logo=slack&logoColor=white" alt="Join FeatBit on Slack"/>
-  </a>
+    <a href="https://github.com/featbit/featbit/blob/main/LICENSE">
+      <img src="https://img.shields.io/static/v1?style=flat-square&label=license&message=MIT&color=brightgreen" />
+    </a>
+    <a href="https://twitter.com/RealFeatBit">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/>
+    </a>  
+    <a href="https://medium.com/@featbit">
+      <img src="https://img.shields.io/badge/Medium-grey?style=flat-square&logo=medium&logoColor=white" alt="Read about RATH on medium"/>
+    </a>
+    <a href="https://join.slack.com/t/featbit/shared_invite/zt-1ew5e2vbb-x6Apan1xZOaYMnFzqZkGNQ">
+      <img src="https://img.shields.io/badge/Slack-green?style=flat-square&logo=slack&logoColor=white" alt="Join FeatBit on Slack"/>
+    </a>
+    </div>
+    <div id="badges">
+    <a href="https://dotnet.microsoft.com/">
+      <img src="https://img.shields.io/badge/.NET-%3E=6.0-6E359E?style=flat-square&logo=csharp&logoColor=white"/>
+    </a>
+    <a href="https://www.python.org/">
+      <img src="https://img.shields.io/badge/Python-%3E=3.9-FFDD53?style=flat-square&logo=python&logoColor=white"/>
+    </a>
+    <a href="https://angular.io/">
+      <img src="https://img.shields.io/badge/Angular-16.0-DD0031?style=flat-square&logo=angular&logoColor=white"/>
+    </a>
   </div>
-  <div id="badges">
-  <a href="https://dotnet.microsoft.com/">
-    <img src="https://img.shields.io/badge/.NET-%3E=6.0-6E359E?style=flat-square&logo=csharp&logoColor=white"/>
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-%3E=3.9-FFDD53?style=flat-square&logo=python&logoColor=white"/>
-  </a>
-  <a href="https://angular.io/">
-    <img src="https://img.shields.io/badge/Angular-16.0-DD0031?style=flat-square&logo=angular&logoColor=white"/>
-  </a>
-</div>
+
+  <br/>
+  <div id="links">
+    <a href="https://docs.featbit.co">
+      Documentation
+    </a>
+    |
+    <a href="https://join.slack.com/t/featbit/shared_invite/zt-1ew5e2vbb-x6Apan1xZOaYMnFzqZkGNQ">
+      Community (Slack)
+    </a>
+    |
+    <a href="https://www.linkedin.com/company/featbit">
+      LinkedIn
+    </a>
+    |
+    <a href="mailto:contact@featbit.co">
+      Email
+    </a>
+  </div>
+
+  
 </div>
 
 <br/>
 
-🙏 If you are using FeatBit, we have launched the [**FeatBit Usage Survey**](https://forms.gle/gZT715wE9aMPpoBw8). It would be greatly appreciated and incredibly helpful if you could take the time to fill it out (5 questions).
 
 ## Try FeatBit Online
 
@@ -117,6 +137,8 @@ The above sections show you how to get up and running quickly and easily. When y
 
 [Join our Online Slack Support & Community](https://join.slack.com/t/featbit/shared_invite/zt-1ew5e2vbb-x6Apan1xZOaYMnFzqZkGNQ)
 
+[Connect with FeatBit on LinkedIn](https://www.linkedin.com/company/featbit)
+
 Email us at [contact@featbit.co](mailto:contact@featbit.co) if Slack isn't your thing.
 
 [Official Website](https://www.featbit.co)
@@ -156,6 +178,8 @@ FeatBit offers a range of features including:
 - **Powerful Integrations**: Our feature-rich [WebHook](https://docs.featbit.co/integrations/webhooks) allows seamless integration with various tools and workflows: [DataDog](https://docs.featbit.co/integrations/observability/datadog), [New Relic Ones](https://docs.featbit.co/integrations/observability/newrelic), [Grafana](https://docs.featbit.co/integrations/observability/grafana), [Growthbook](https://docs.featbit.co/integrations/data-analytic/growthbook), [Slack](https://docs.featbit.co/integrations/chat-apps/slack) and more.
 
 - **[ChatGPT Tech Debt Reduction](https://github.com/featbit/featbit/tree/main/llm)** (experimental features): Utilize ChatGPT4 and FeatBit's VSCode extension to minimize technical debt associated with feature flagging.
+
+- **[OpenTelemetry Integration](https://docs.featbit.co/integrations/observability/opentelemetry)**: Enhance system visibility with OpenTelemetry for logs, traces, and metrics.
 
 - **[Helm Charts Installation](https://github.com/featbit/featbit-charts/)**, FeatBit can be installed on-premises, in the cloud, or in a hybrid environment through Helm Charts.
 
